@@ -107,4 +107,26 @@
     background-color: #d6d6d6;
 }
 
+/* Account section styling */
 
+span {
+    font-size: 0.7rem;
+}
+.sign {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/* cart box styling */
+
+.nav-cart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cart-text {
+    font-size: 0.85rem;
+}
+.cart {
+    font-size: 30px;
+}
