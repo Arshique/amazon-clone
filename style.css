@@ -137,7 +137,7 @@ span {
 .pannel {
     background-color: #222f3d;
     height: 40px;
-    width: 1366px;
+    width: 1349px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -153,9 +153,41 @@ span {
     margin-left: 15px;
 }
 .pannel-ops {
-    width: 82%;
+    width: 80%;
+    font-size: 0.85rem;
 }
 .right-pannel a{
     text-decoration: none;
     color: #ffffff;
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+/*main section styling*/
+.main-section {
+    background: url(home.jpg);
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.inner-section {
+    background-color: #f5f6f6;
+    height: 40px;
+    width: 1309px;
+    font-size: 0.85rem;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 310px;
+}
+.inner-section a {
+    color: #007185;
+    text-decoration: none;
+}
+.inner-section a:hover {
+    color:#C7511F;
+    text-decoration: underline;
 }
