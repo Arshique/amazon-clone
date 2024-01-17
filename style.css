@@ -167,7 +167,7 @@ span {
 .main-section {
     background: url(home.jpg);
     background-size: cover;
-    height: 600px;
+    height: 300px;
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -181,7 +181,7 @@ span {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 310px;
+    margin-bottom: 50px;
 }
 .inner-section a {
     color: #007185;
@@ -190,4 +190,63 @@ span {
 .inner-section a:hover {
     color:#C7511F;
     text-decoration: underline;
+}
+
+/*item section styling*/
+
+.item-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #5c0ba8;
+}
+.box {
+    height: 400px;
+    width: 23%;
+    background: #fff;
+    padding: 20px 0 15px 0;
+    margin-top: 15px;
+}
+.img {
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.item-content {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.item-content a{
+    text-decoration: none;
+    color: #007185;
+}
+.item-content a:hover{
+    color: #C7511F;
+}
+/* giving item img*/
+
+.img1-content {
+    background-image: url("box-1.jpg");
+}
+.img2-content {
+    background-image: url("box-2.jpg");
+}
+.img3-content {
+    background-image: url("box-3.jpg");
+}
+.img4-content {
+    background-image: url("box-4.jpg");
+}
+.img5-content {
+    background-image: url("box-5.jpg");
+}
+.img6-content {
+    background-image: url("box-6.jpg");
+}
+.img7-content {
+    background-image: url("box-7.jpg");
+}
+.img8-content {
+    background-image: url("box-8.jpg");
 }
