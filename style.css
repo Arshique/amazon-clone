@@ -29,7 +29,7 @@
     background: url(download.png);
     background-size: cover;
     height: 50px;
-    width: 105px;
+    width: 129px;
 }
 
 .border {
@@ -40,6 +40,10 @@
 }
 
 /* Styling for address box */
+
+.nav-address {
+    margin-left: 13px;
+}
 
 .add-first {
     color: #cccccc;
@@ -249,4 +253,105 @@ span {
 }
 .img8-content {
     background-image: url("box-8.jpg");
+}
+
+/* styling for the footer section */
+.gap{
+    height: 15px;
+    width: 1349px;
+    background-color: #5c0ba8;
+}
+.gap2{
+    height: 40px;
+    width: 1349px;
+    background-color: #232f3e;
+}
+footer a {
+    text-decoration: none;
+    color: #dddddd;
+    font-size: 0.85rem
+}
+.pannel1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #37475a;
+    width: 1349px;
+    height: 49px;
+    font-size: 0.85rem;
+}
+/*pannel 2 styling*/
+.pannel2 {
+    background-color: #232f3e;
+    color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+}
+.pannel2 ul{
+    margin-bottom: 100px;
+    list-style-type: none;
+}
+.pannel2 p{
+    font-weight: 700;
+    font-size: 1rem;
+}
+.pannel2 li{
+    margin-top: 10px;
+}
+
+/* pannel 3 styling */
+
+.pannel3 {
+    background-color: #232f3e;
+    color: #fff;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-top: 0.5px solid #fff;
+}
+.pan3-logo {
+    background: url(download.png);
+    background-size: cover;
+    height: 50px;
+    width: 135px;
+}
+.pannel3-p2 {
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1.5px solid white;
+    height: 34px;
+}
+.USD {
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1.5px solid white;
+    height: 34px;
+}
+.local {
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1.5px solid white;
+    height: 34px;
+}
+
+/* pannel 4 styling */
+.pannel4 {
+    background-color: #131A22;
+    font-size: 0.7rem;
+    color: #fff;
+    text-align: center;
+    height: 77px;
+}
+.pages {
+    padding-top: 25px;
+}
+.copyright {
+    padding-top: 5px;
 }
